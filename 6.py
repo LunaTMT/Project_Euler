@@ -1,3 +1,6 @@
+#Certainly not my code, to come back to because I don't fully understand it
+# https://stackoverflow.com/a/22712191
+
 from itertools import count, takewhile
 
 def primes(n):
