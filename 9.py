@@ -1,6 +1,5 @@
 import numpy as np
 
-
 for a in range(1000):
     for b in range(1000):
         c = 1000 - a - b
