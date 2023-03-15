@@ -3,9 +3,7 @@ def get_primes(num):
 
     p = 2
     while (p ** 2 <= num):
-
         if (prime[p] == True):
-
             for i in range(p ** 2, num+1, p):
                 prime[i] = False
         p += 1
