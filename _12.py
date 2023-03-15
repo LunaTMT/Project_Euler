@@ -1,7 +1,7 @@
 #I have no idea how this algorithm works in depth (mathematically), 
 #I used the explanation found here
 #(https://rpubs.com/Rob_Mac/284102#:~:text=Now%20let's%20find%20the%20answer,to%20be%20more%20than%20500.&text=And%20the%20number%2C%2076%2C576%2C500%20(the,with%20more%20than%20500%20divisors.) 
-# as a guide to the psuedo code
+# as a guide for the psuedo code
 
 import primefac
 from functools import reduce
