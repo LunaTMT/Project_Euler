@@ -1,5 +1,3 @@
-
-
 def is_even(n):
     if n%2 != 0:
         return 3*n + 1
@@ -8,7 +6,6 @@ def is_even(n):
 chain = []
 
 for n in (range(2, 999999)):
-    print(n)
     temp = n
     counter = 0
 
@@ -19,4 +16,3 @@ for n in (range(2, 999999)):
     chain.append((counter, temp))
 
 print(max(chain))
-print()
