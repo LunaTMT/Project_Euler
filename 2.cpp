@@ -1,3 +1,5 @@
+//With vectors
+
 #include <iostream>
 #include <vector>
 
@@ -18,3 +20,27 @@ int main() {
     cout << "Sum of even Fibonacci numbers: " << sum << endl;
     return 0;
 }
+
+// With ints
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int a=1, b=1, sum=0;
+
+    while (b < 4'000'000){
+        if (b % 2 == 0)
+            sum += b;
+
+        int next = a + b;
+        a = b;
+        b = next;
+    }
+
+    cout << sum;
+    return 0;
+}
+
